@@ -7,6 +7,17 @@
     margin-bottom: 5%;
 }
 
+.page-intro
+{
+  font-family: "Playlist script";
+  text-align: justify;
+  font-size: 1.5em;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .page-subtitle
 {
     font-family: "Playlist script";
