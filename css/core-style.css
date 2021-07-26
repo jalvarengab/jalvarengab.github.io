@@ -1,0 +1,89 @@
+/*
+***
+* Global styles for the site
+***
+* Default styles for all pages, this are
+* overriden by individual page styles if
+* needed. This should be loaded first.
+***
+*/
+html
+{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body
+{
+    position: relative;
+    width: 100%;
+    height: min-content;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    min-width: 25em;
+}
+
+/* Titles */
+.page-title
+{
+    font-size: 4vw;
+    font-family: "Playlist script";
+    color: #686369cf;
+}
+
+.page-subtitle
+{
+    font-size: 3vw;
+    font-family: "Playlist script";
+    color: #686369cf;
+}
+
+/* Containers */ 
+.social-container-c 
+{
+    text-align: center;
+}
+
+/* Links */
+
+/* unvisited link */
+a:link 
+{
+    color: #14484C;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #14484C;
+}
+
+/* mouse over link */
+a:hover 
+{
+    color: #14484C;
+}
+
+/* selected link */
+a:active 
+{
+    color: #14484C;
+}
+
+/* Buttons */
+.connect-btn
+{
+    background-color: #14484C;
+}
+
+.project-btn
+{
+    background-color: #14484C;
+    width: 50%;
+}
+
+.project-btn:hover
+{
+    background-color: #1b858d;
+}

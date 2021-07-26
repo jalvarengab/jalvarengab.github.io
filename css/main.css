@@ -1,0 +1,167 @@
+.page-title
+{
+    font-family: "Playlist script";
+    text-align: center;
+    font-size: 3em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.page-subtitle
+{
+    font-family: "Playlist script";
+    text-align:left;
+    font-size: 3em;
+    color: #686369cf;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left:  1%;
+}
+
+.project-entry-row
+{
+    background-color: white;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.box-text {
+
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  width: 100%;
+  min-height: 50%;
+  color: black;
+  height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+
+ .read-more-about-us a:link
+{
+  text-align: left;
+  color: #2B2A28;
+  font-size: 21px;
+  margin: 10px;
+  font-style: italic;
+  color: green;
+}
+
+.project-image
+{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
+
+.project-description
+{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 576px){
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 45%;
+  }
+    .box-text {
+
+      align-items: center;
+      justify-content: center;
+      padding-top: 10%;
+      padding-bottom: 3%;
+      width: 100%;
+      min-height: 50%;
+      color: black;
+      height: 100%;
+     }
+}
+
+.box-image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10%;
+   padding-bottom: 3%;
+   min-width: 500px;
+   min-height: 500px;
+   width: 500px;
+   color: #fff;
+ }
+
+.enlarged-picture-1
+{
+  background-image: url("../img/MCRAS-Main.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.enlarged-picture-2
+{
+  background-image: url("../img/numbers.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.enlarged-picture-3
+{
+  background-image: url("../img/OC-Interlock-Main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-entry
+{
+   font-size: 1.3vw;
+   color: #7E5537;
+   text-align: left;
+   font-weight: bold;
+ }
+
+.p-blog-entry 
+{
+   text-align: justify;
+   color: black;
+   font-size: 1.1rem;
+   padding-right: 40px;
+}
+
+/* Responsive layout - when the screen is 37.5em (~600px) wide or less */
+@media all and (max-width: 37.5em) 
+{
+ 
+  .page-subtitle
+  {
+      text-align: center;
+  }
+
+  .project-link
+  {
+    text-align: center;
+  }
+
+  .project-image
+  {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .project-description
+  {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+  }
+}
